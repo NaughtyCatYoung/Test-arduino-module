@@ -5,7 +5,7 @@ private:
     int PWM,IN1,IN2;
     bool break_enable=false;
 public:
-    int speed_now;
+    int speed_now=0;
     MCT_HB_40A_H_Bridge(int pwm,int in1,int in2):PWM(pwm),IN1(in1),IN2(in2){
         pinMode(PWM,OUTPUT);
         pinMode(IN1,OUTPUT);

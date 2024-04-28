@@ -1,5 +1,6 @@
 {
     "configuration": "cpu=atmega2560",
     "board": "arduino:avr:mega",
-    "sketch": "Cytron_20a_motor_driver\\Cytron_20a_motor_driver.ino"
+    "sketch": "2_Relay_Module\\2_Relay_Module.ino",
+    "port": "COM3"
 }

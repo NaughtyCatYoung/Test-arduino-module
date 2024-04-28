@@ -7,6 +7,7 @@ class Cytron_20a_motor_driver
 private:
     int PWM, DIR;
 public:
+    int speed_now=0;
     Cytron_20a_motor_driver(int pwm, int dir) : PWM(pwm), DIR(dir)
     {
         pinMode(PWM, OUTPUT);
